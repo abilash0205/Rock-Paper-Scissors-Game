@@ -1,2 +1,2 @@
-# Rock-Paper-Scissors-Game
-Simple and Beginner friendly Rock Paper Scissors Game Project.
+# Stone-Paper-Scissors-Game
+Simple and Beginner friendly Stone Paper Scissors Game Project.
