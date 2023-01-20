@@ -18,7 +18,7 @@ function generateComputerChoice() {
     const randomNumber = Math.floor(Math.random() * 3) + 1
     
     if (randomNumber === 1) {
-        computerChoice = 'rock'
+        computerChoice = 'stone'
     }
     if (randomNumber === 2) {
         computerChoice = 'scissors'
@@ -33,19 +33,19 @@ function getResult () {
     if (computerChoice === userChoice) {
         result = "It's a draw!"
     }
-    if (computerChoice === 'rock' && userChoice === 'paper') {
+    if (computerChoice === 'stone' && userChoice === 'paper') {
         result = 'You Won!!'
     }
-    if (computerChoice === 'rock' && userChoice === 'scissors') {
+    if (computerChoice === 'stone' && userChoice === 'scissors') {
         result = 'You Lost!'
     }
     if (computerChoice === 'paper' && userChoice === 'scissors') {
         result = 'You Won!!'
     }
-    if (computerChoice === 'paper' && userChoice === 'rock') {
+    if (computerChoice === 'paper' && userChoice === 'stone') {
         result = 'You Lost!'
     }
-    if (computerChoice === 'scissors' && userChoice === 'rock') {
+    if (computerChoice === 'scissors' && userChoice === 'stone') {
         result = 'You Won!!'
     }
     if (computerChoice === 'scissors' && userChoice === 'paper') {
